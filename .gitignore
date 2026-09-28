@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+_PRIVATE_DO_NOT_UPLOAD/
+credentials/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+*service-account*.json
+*credentials*.json
+*credenciais*.json
+airfare-intelligence-*.json
+config/config.ini
+
+# Generated collection data
+DADOS_BRUTOS/
+LOGS/
+*.xlsx
+*.xls
+*.html.gz
+*.png
+
+# Public supplemental artifacts used by README/documentation
+!data/*.xlsx
+!data/*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.lnk
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+
+# Build and Packaging
+*.egg-info/
+dist/
+build/
+*$py.class
+*.so
+.Python
+
+# Outros
+*.xlsx.hash
